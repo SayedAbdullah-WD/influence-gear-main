@@ -1,0 +1,54 @@
+/* Top Section  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    padding: 50px 80px;
+}
+.head-font{
+    font-size: 36px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(245, 33, 68);
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-image: rgb(241, 28, 64);
+    color: white;
+}
+/* Top Collection */
+.containerr{
+    padding: 50px 80px;
+}
+.section-tittle{
+text-align: center;
+margin-bottom: 40px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+}
+.fa-star{
+font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.star-flex{
+    display: flex;
+}
