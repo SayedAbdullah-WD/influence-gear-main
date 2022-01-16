@@ -1,4 +1,6 @@
-/* Top Section  */
+/* -------------
+Top Section
+------------  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
@@ -25,7 +27,9 @@ body{
     background-color: rgb(154, 35, 238);
     
 }
-/* Top Collection */
+/* ----------
+Top Collection 
+-------------*/
 .containerr{
     padding: 50px 80px;
 }
@@ -69,7 +73,9 @@ font-size: 12px;
 #id{
     text-decoration: none;
 }
-/* shadow  */
+/* ---------
+shadow
+---------  */
 .course{
     padding-top: 10%;
     border-radius: 10px;
@@ -81,7 +87,9 @@ font-size: 12px;
     margin-bottom: 5%;
 box-shadow:10px 10px 50px gray;
 }
-/* Featured Products */
+/* ------------
+Featured Products
+----------------- */
 .top-pic img{
     width: 400px;
     height: 300px;
@@ -90,7 +98,9 @@ box-shadow:10px 10px 50px gray;
 #top-pic-pad{
 padding-left: 80px;
 }
-/* Footer Tag  */
+/* --------
+Footer Tag 
+----------- */
 footer{
     text-align: center;
     background-color: black
@@ -118,4 +128,53 @@ footer{
 } 
 #icon-dissss{
     padding-right: 5px;
+}
+/*---------------
+ Media queries
+----------------- */
+/* For Mobile  */
+@media only screen and (max-width:688px) {
+    .container, .top-pic{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .courses{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer{
+        width: 100%;
+    }
+}
+/* For Tablet  */
+@media only screen and (min-width:689) and (max-width:992) {
+    .container, .top-pic{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;}
+        .courses{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .footer{
+            display: 100%;
+        }
+
+}
+/* For big Monitor */
+@media only screen and (min-width:993) and (max-width:1312) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;}
+        .courses{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .footer{
+            display: 100%;
+        }
+
 }
